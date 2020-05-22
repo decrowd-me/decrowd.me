@@ -37,14 +37,116 @@
 		color: black;
 	}
 
-	txt {
+	label_title_style {
 		background-color:rgb(255, 127, 42);
-		border: 5px solid rgb(200, 80, 31);
+		border: none;
+		padding: 0.5em;
+		border-radius: 20.0em;
+		font-size: 1em;
+		text-decoration: none;
+		color: black;
+	}
+
+	text_frame {
+		background-color:rgb(204, 86, 7);
+		border: none;
+		padding: 0.1em;
+		border-radius: 20.0em;
+		font-size: 1em;
+		text-decoration: none;
+		color: black;
+	}
+
+	text_frame2 {
+		background-color:rgb(204, 86, 7);
+		border: none;
+		padding: 0.2em;
+		border-radius: 20.0em;
+		font-size: 0.9em;
+		text-decoration: none;
+		color: black;
+	}
+
+	txt {
+		background-color:none;
+		border: none;
 		padding: 0.0em;
-		border-radius: 0.5em;
+		border-radius: 0.0em;
 		font-size: 0.8em;
 		text-decoration: none;
 		color: black;
+	}
+
+	txt_w_spacing {
+		background-color:none;
+		border: none;
+		padding: 5.0em;
+		border-radius: 0.0em;
+		font-size: 0.8em;
+		text-decoration: none;
+		color: black;
+	}
+
+	just_padding {
+		padding: 3.0em;
+	}
+
+	just_spacing {
+		padding-left: 20px;
+	}
+
+	.team_frame{
+        position: relative;
+        display: inline-block;  
+
+    }
+    .team_frame.text{
+        position: absolute;
+		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+        
+    }
+
+	skmp_padding {
+		padding-left: 35px;
+	}
+
+
+	orf_padding {
+		padding-left: 50px;
+	}
+
+	div_padding {
+		padding-left: 35px;
+	}
+
+	kama_padding {
+		padding-left: 15px;
+	}
+
+	paul_padding {
+		padding-left: 50px;
+	}
+
+	skmp_padding2 {
+		padding-left: 10px;
+	}
+
+	orf_padding2 {
+		padding-left: 20px;
+	}
+
+	div_padding2 {
+		padding-right: 0px;
+	}
+
+	kama_padding2 {
+		padding-left: 15px;
+	}
+
+	paul_padding2 {
+		padding-left:15px;
 	}
 
 	</style>
@@ -54,15 +156,76 @@
  
 	<small style="line-height: 1.8;font-size: 0px;background: #fff;"> </small></div><style>.newst{position:relative;text-align:right;height:420px;width:520px;} #gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
 	
-	<br><br><br><br><br><br><br> 
+	<just_padding></just_padding>
+
 	<h2> <button_style><a href="customer.html">Για ιδιώτες</a></button_style>  
 		<button_style><a href="vendor.html">Για επιχειρήσεις</a> </button_style> </h2>
 
-	<br><br><br><br><br><br><br> 
+	<just_padding></just_padding> 
+	<h1> <label_title_style>The team</label_title_style></h1> 
+	
+
+		<h2>
+		<div class="team_frame">
+			<img src="team/skmp.png" width="180" height="180"  alt="SKMP">
+			<div class="text">
+				<skmp_padding></skmp_padding> 
+				<text_frame>Στέφανος</text_frame> <br> 
+				<skmp_padding2></skmp_padding2> 
+				<text_frame>HW Developer</text_frame>
+			</div>
+		</div>
+	 
+		<div class="team_frame">
+			<img src="team/orf.png" width="180" height="180"  alt="SKMP">
+			<div class="text">
+				<orf_padding></orf_padding> 
+				<text_frame>Ορφέας</text_frame><br> 
+				<orf_padding2></orf_padding2> 
+				<text_frame>Data scientist</text_frame>
+			</div>
+		</div>
+
+		<div class="team_frame">
+			<img src="team/div.png"  width="180" height="180" alt="SKMP">
+			<div class="text">
+				<div_padding></div_padding> 
+				<text_frame>Δημήτρης</text_frame><br>
+				<div_padding2></div_padding2> 
+				<text_frame>R&D/Algorithms</text_frame>
+			</div>
+		</div>
+
+		<div class="team_frame">
+			<img src="team/kamaro.png" width="180" height="180"  alt="SKMP">
+			<div class="text">
+				<kama_padding></kama_padding> 
+				<text_frame>Κωνσταντίνος</text_frame> <br>
+				<kama_padding2></kama_padding2> 
+				<text_frame>Back/Frontend</text_frame>  
+			</div>
+		</div>
+
+		<div class="team_frame">
+			<img src="team/paul.png"  width="180" height="180" alt="SKMP">
+			<div class="text">
+				<paul_padding></paul_padding> 
+				<text_frame>Παύλος</text_frame> <br>
+				<paul_padding2></paul_padding2> 
+				<text_frame>Marketing lead</text_frame>
+			</div>
+		</div>
+
+		</h2>
+	 
+ 
+	<just_padding></just_padding>
+	<label_title_style><h1>Social Media</h1></label_title_style>
 	<h2> <a href="https://twitter.com/decrowd_me"><img src="twitter.png" width="200" height="200" > </a>
 		<a href="https://www.facebook.com/decrowd.me/ "><img src="facebook.png" width="200" height="200"></a>
 		<a href="https://www.youtube.com/channel/UCvlGFR1QaqcfYk_NxxRrsgg"> <img src="youtube.png" width="200" height="200"></a> 
 		<a href="https://www.instagram.com/decrowd.me/"><img src="instagram.png" width="200" height="200"> </a> </h2> 
 
+	<just_padding></just_padding>
 	<txt_copyright>Copyright 2020 The deCrowd team.Contact us : info@deCrowd.me</txt_copyright>
 </body>
